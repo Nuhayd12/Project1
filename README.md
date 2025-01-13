@@ -1,6 +1,6 @@
-# English-German Translation Model
+# LSTM-NMT Model
 
-This project implements a neural machine translation model that translates English sentences to German using a sequence-to-sequence architecture with LSTM and attention mechanisms. The model is trained on a dataset containing English-German sentence pairs.
+This project implements a neural machine translation model that translates English sentences to Desired language using a sequence-to-sequence architecture with LSTM and attention mechanisms. The model is trained on a dataset containing English-Spanish sentence pairs.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -80,13 +80,13 @@ conda env create -f environment.yml
 # Usage
 After installing the required libraries, you can start using the translation model.
 
-**Prepare your dataset**: Ensure you have your dataset in the correct format. The dataset should be a tab-separated file containing English sentences in one column and their corresponding German translations in the second. (I have replaced the actual dataset with partial dummy data)
+**Prepare your dataset**: Ensure you have your dataset in the correct format. The dataset should be a tab-separated file containing English sentences in one column and their corresponding Spanish translations in the second. (I have replaced the actual dataset with partial dummy data)
 
 **Clean and preprocess the data**: Run the provided data cleaning script to prepare the dataset for training.
 
 **Train the model**: Use the training script to train the sequence-to-sequence model for translation.
 
-**Predict translations**: Once the model is trained, you can use the prediction script to translate English sentences to German.
+**Predict translations**: Once the model is trained, you can use the prediction script to translate English sentences.
 
 # Training
 
@@ -106,7 +106,7 @@ bash
 python predict_translation.py
 ```
 
-**Provide an English sentence as input when prompted, and the model will output the German translation.**
+**Provide an English sentence as input when prompted, and the model will output the Spanish translation.**
 
 # Contributing
 
